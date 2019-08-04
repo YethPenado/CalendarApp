@@ -1,0 +1,6 @@
+{
+  "db": "calendario",
+  "collection": "eventos",
+  "url": "mongodb://localhost:27017",
+  "port": 5555
+}

@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+button {
+  border: 0 none;
+  cursor: pointer;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.5em;
+  padding-top: 2%;
+  text-align: center;
+}
+
+html {
+  background-image: url('../assets/background.jpg');
+}
+
+input {
+  display: block;
+  margin-bottom: 15px;
+}
+
+span {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td {
+  padding: 5px;
+  text-align: center;
+}
+
+.add-event {
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  background-color: #9cc54a;
+  border-bottom: 5px solid #89ac42;
+  border-radius: 5px;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 20px;
+  padding: 10px 25px;
+  text-align: center;
+}
+
+.content {
+  max-width: 25%;
+  margin: 0 auto;
+}
+
+.calendar caption {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.calendar {
+  background-color: #F2F2F4;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.171);
+}
+
+.calendar th {
+  background-color: #363636;
+  color: #FFF;
+  height: 50px;
+}
+
+.calendar th:first-child {
+  color: #f03a52;
+}
+
+.calendar th:last-child {
+  color: #79A2F2;
+}
+
+.calendar td {
+  border: 2px solid #E5DDDB;
+  height: 40px;
+}
+
+.calendar-controls {
+  margin-top: 35px;
+}
+
+.events {
+  margin-top: 30px; 
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.363);
+  background-color: #93be3cb9;
+  padding: 25px;
+}
+
+.prev-month,
+.next-month {
+  background-color: #9cc54a;
+  border-bottom: 3px solid #89ac42;
+}
+
+.cancel,
+.save {
+  background-color: #B5416B;
+  border-bottom: 4px solid #a82555;
+  margin-top: 40px;
+}
